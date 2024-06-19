@@ -1,0 +1,5 @@
+config.yml
+BaseClient/**/*
+!BaseClient/.gitkeep
+InstallerClient/**/*
+!InstallerClient/.gitkeep

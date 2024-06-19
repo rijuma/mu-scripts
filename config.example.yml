@@ -1,0 +1,16 @@
+# Made with Love by Marcos https://github.com/rijuma
+# https://github.com/rijuma/mu-scripts
+
+baseClientPath: "BaseClient"
+updater:
+  installerClientPath: "InstallerClient"
+  updatePath: "Updates" # Warning! The contents of this directory will be deleted.
+  exclude:
+    - "macro.txt"
+    - ".gitkeep"
+    - "*.bak"
+    - "*.log"
+    # Remove the following lines if you want to include sounds in the update.
+    - "*.mp3"
+    - "*.wav"
+    - "*.ogg"
